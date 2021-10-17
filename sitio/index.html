@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>website | Mobile Web Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="#" id="logo">
+            <img src="img/pics/logo.png" alt="">
+          </a>
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="current">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#website">
+                  Website
+                </a>
+              </li>
+              <li>
+                <a href="#team3">
+                  Team 3
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- aqui debe ir las imagenes del carrusel -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="website-img1">
+            <li><img src="img/slider/website-img1.jpg" alt=""></li>
+            <li><img src="img/slider/html5-img2.jpg" alt=""></li>
+            <li><img src="img/slider/css3-img3.jpg" alt=""></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- Estructura iconos-->
+    <section class="one-third" id="website">
+      <div class="icon-wrap">
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>What is a website?</h3>
+      <p>Poner texto aqui!.</p>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+        <i class="fa fa-pencil-square-o"></i>
+      </div>
+      <h3>CSS3</h3>
+      <p>Poner texto aqui!.</p>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+        <i class="fa fa-file-code-o"></i>
+      </div>
+      <h3>HTML5</h3>
+      <p>Poner texto aqui!. </p>
+    </section>
+
+    <div class="clearfix-padding"></div>
+    <!-- Segunda estructura -->
+    <section class="left-col" id="team3">
+      <h3>Team 3</h3>
+      <p>We make a website with html3 and css. The team is made up of:
+        verania flores
+        -
+        -
+        -
+        -
+      </p>
+    </section>
+    <section class="sidebar">
+      <img src="img/pics/logo.png">
+    </section>
+
+    <div class="clearfix-padding"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper"id="contact">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            
+</ul>
+        </div>
+        <div class="icon-text-text">
+          <ul class="social">
+            <li>
+              <a href="200300631@ucaribe.edu.mx">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100007725859374">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#"> <!--pongan una cuenta -->
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=54Ky7OZ9Jmc">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/ucaribeoficial?utm_medium=copy_link"><!--pongan una cuenta -->
+                
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <footer class="second-footer">
+    <p>
+      &copy; <a href="https://www.unicaribe.mx/">team 3</a>
+    </p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.website-img1').bxSlider({
+        mode: 'fade',
+      });
+      $('.html5-img2').bxSlider({
+        mode: 'fade',
+      });
+      $('.css3-img3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
